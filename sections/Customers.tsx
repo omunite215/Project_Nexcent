@@ -5,7 +5,7 @@ const Customers = () => {
     <main className="container-fluid py-5">
       <section className="d-flex flex-lg-row flex-column align-items-lg-start align-items-center justify-content-md-between justify-content-center text-lg-start text-center">
         <Image src="/promotion.svg" height={326} width={326} alt="customer"/>
-        <section className="d-flex flex-column g-col-6 w-sm-50 w-100">
+        <section className="d-flex flex-column g-col-6 box">
           <p className="fw-medium text-dark">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu

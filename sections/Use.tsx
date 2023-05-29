@@ -4,9 +4,9 @@ import Image from "next/image";
 const Use = () => {
   return (
     <main className="container-fluid py-5">
-      <section className="d-flex flex-lg-row flex-column align-items-lg-start align-items-center justify-content-md-between justify-content-center gap-sm-0 gap-3 text-lg-start text-center">
+      <section className="d-flex flex-lg-row flex-column align-items-center justify-content-md-between justify-content-center gap-sm-0 gap-3 text-lg-start text-center">
         <Image src="/useImg.svg" height={433} width={442} alt="Legacy" />
-        <section className="text-left d-flex flex-column justify-content-between w-sm-50 w-100">
+        <section className="text-left d-flex flex-column justify-content-between box">
           <h1 className="text-secondary fw-semibold">
             How to design your site footer like we did
           </h1>

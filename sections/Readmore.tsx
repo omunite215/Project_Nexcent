@@ -14,7 +14,7 @@ const Readmore = () => {
           how our community are increasing their membership income and lot's
           more.
         </p>
-        <section className="d-flex justify-content-between align-items-center flex-sm-row flex-column row-gap-5 mt-2">
+        <section className="d-flex justify-content-between align-items-center flex-lg-row flex-column gap-5 mt-2">
           {ReadMoreContent.map((item) => (
             <ReadmoreCard title={item.title} imgsrc={item.imgsrc} key={item.title} />
           ))}

@@ -6,7 +6,7 @@ const Legacy = () => {
     <main className="container-fluid py-5">
       <section className="d-flex flex-lg-row flex-column align-items-lg-start align-items-center justify-content-md-between justify-content-center text-lg-start text-center">
         <Image src="/legacyImg.svg" height={433} width={442} alt="Legacy" />
-        <section className="text-left d-flex flex-column justify-content-between w-sm-50 w-100">
+        <section className="text-left d-flex flex-column justify-content-between box">
           <h1 className="text-secondary fw-semibold">
             The unseen of spending three years at Pixelgrade
           </h1>

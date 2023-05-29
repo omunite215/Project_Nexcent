@@ -2,6 +2,20 @@ html {
   --scroll-behavior: smooth!important;
   scroll-behavior: smooth!important;
   }
+  .logo-navbar{
+    height: 24px;
+    width: 154px;
+  }
+  .box {
+    width: 50%;
+  }
+  
+  @media (max-width: 576px) {
+    .box {
+      width: 100%;
+    }
+  }
+  
   #grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */

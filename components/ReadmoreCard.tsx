@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const ReadmoreCard = ({title, imgsrc}:any) => {
   return (
-    <main className='container rounded shadow w-sm-25 w-100'>
+    <main className='container rounded shadow'>
       <section className='d-flex flex-column justify-content-between align-items-center gap-3'>
         <section>
         <Image src={imgsrc} height={200} width={200} alt="Feature-Image" className="object-contain" />
@@ -11,7 +11,7 @@ const ReadmoreCard = ({title, imgsrc}:any) => {
         <p className="text-dark text-center fw-normal">{title}</p>
         <section className="d-flex align-items-center justify-content-center text-center">
               <p className="text-primary fw-semibold fs-5">
-                Read more{" "}
+                Readmore{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
