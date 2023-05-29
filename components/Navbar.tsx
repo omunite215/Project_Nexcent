@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-lg">
     <Link className="navbar-brand" href="/">
-      <img src="logo.svg" alt="logo" className="logo-navbar d-inline-block align-text-top"/>
+      <Image src="logo.svg" alt="logo" height={24} width={154} className="d-inline-block align-text-top"/>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

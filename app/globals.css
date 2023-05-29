@@ -2,10 +2,6 @@ html {
   --scroll-behavior: smooth!important;
   scroll-behavior: smooth!important;
   }
-  .logo-navbar{
-    height: 24px;
-    width: 154px;
-  }
   .box {
     width: 50%;
   }
