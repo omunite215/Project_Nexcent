@@ -1,12 +1,13 @@
 # Nexcent - Lessons and Insights
 
-![Screenshot 2023-05-03 122704](https://user-images.githubusercontent.com/78680563/235850317-097d71db-487e-4899-8282-bdcbce6f5caf.png)
+![Screenshot 2023-05-29 125423](https://github.com/omunite215/Nexcent/assets/78680563/8a672a28-add5-4c56-8b12-57dfa10505d4)
+
 
 This is a Responsive Webpage of Lessons and Insights using Next.Js and Bootstrap
 
 A website which made using Next.js, Bootstrap resulting in a stunning website.
 
-This Project is hosted in Netlify : [Portfolio](https://portfoliobyom.netlify.app/)
+This Project is hosted in Vercel : [Nexcent]([https://portfoliobyom.netlify.app/](https://nexcent-kappa.vercel.app/))
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
