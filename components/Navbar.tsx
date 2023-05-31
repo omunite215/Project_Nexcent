@@ -5,7 +5,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary py-4">
   <div className="container-lg">
     <Link className="navbar-brand" href="/">
       <Image src="logo.svg" alt="logo" height={24} width={154} className="d-inline-block align-text-top"/>
@@ -16,22 +16,22 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0 g-row-6 fw-medium">
         <li className="nav-item me-4">
-          <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+          <Link className="nav-link active" id="linkstyle" aria-current="page" href="/">Home</Link>
         </li>
         <li className="nav-item me-4">
-          <Link className="nav-link active" aria-current="page" href="/">Service</Link>
+          <Link className="nav-link active" id="linkstyle" aria-current="page" href="/">Service</Link>
         </li>
         <li className="nav-item me-4">
-          <Link className="nav-link active" aria-current="page" href="/">Feature</Link>
+          <Link className="nav-link active" id="linkstyle" aria-current="page" href="/">Feature</Link>
         </li>
         <li className="nav-item me-4">
-          <Link className="nav-link active" aria-current="page" href="/">Product</Link>
+          <Link className="nav-link active" id="linkstyle" aria-current="page" href="/">Product</Link>
         </li>
         <li className="nav-item me-4">
-          <Link className="nav-link active" aria-current="page" href="/">Testimonial</Link>
+          <Link className="nav-link active" id="linkstyle" aria-current="page" href="/">Testimonial</Link>
         </li>
         <li className="nav-item me-4">
-          <Link className="nav-link active" aria-current="page" href="/">FAQ</Link>
+          <Link className="nav-link active" id="linkstyle" aria-current="page" href="/">FAQ</Link>
         </li>
       </ul>
     </div>

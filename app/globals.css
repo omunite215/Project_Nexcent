@@ -28,3 +28,15 @@ html {
     justify-content: center;
     align-items: center;
   }
+  ::placeholder { /* Most modern browsers support this now. */
+    color:white;
+ }
+ #linkstyle:hover{
+color: #4CAF4F;
+ }
+ a:active{
+  color: #4CAF4F;
+ }
+ html{
+  padding-right: 0px;
+ }

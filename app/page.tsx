@@ -14,7 +14,7 @@ import {
 export default function Home() {
   return (
     <main>
-      <nav className="py-3">
+      <nav>
         <Navbar />
       </nav>
       <section className="container mt-5 d-flex flex-column column-gap-5">
@@ -27,7 +27,7 @@ export default function Home() {
         <Customers />
         <Readmore />
       </section>
-      <footer className="d-flex flex-column justify-content-center">
+      <footer className="d-flex flex-column justify-content-center align-items-center w-100">
         <Demo />
         <Footer />
       </footer>

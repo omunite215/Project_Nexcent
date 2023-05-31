@@ -59,9 +59,9 @@ const Footer = () => {
                 <section className="d-flex flex-column gap-3" key={items.title}>
                   <h5>{items.title}</h5>
                   <ul className="d-flex flex-column">
-                    <li className="d-flex flex-column gap-2">
+                    <li className="d-flex flex-column gap-2" role="button">
                       {items.links.map((links) => (
-                        <span key={links}>{links}</span>
+                        <span id="linkstyle" key={links}>{links}</span>
                       ))}
                     </li>
                   </ul>
@@ -75,6 +75,7 @@ const Footer = () => {
                     type="email"
                     className="form-control bg-dark text-light shadow-none border border-0"
                     id="exampleFormControlInput1"
+                    data-bs-theme="dark"
                     placeholder="Your email address"
                   />
                   <button className="btn btn-dark">

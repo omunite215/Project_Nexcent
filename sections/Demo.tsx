@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const Demo = () => {
   return (
-    <main className="container-fluid py-5">
+    <main className="container-fluid py-5 w-100">
       <section className="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 className="fw-semibold text-warning fs-1 w-50">
           Pellentesque suscipit fringilla libero eu.
         </h1>
-        <Link href="/" className="mt-4">
+        <Link href="/" className="mt-4 text-decoration-none">
           <button
             type="button"
-            className="btn btn-primary text-light fw-normal fs-6 px-5 py-3 d-flex gap-1 align-items-center "
+            className="btn btn-primary text-light fw-normal fs-6 px-5 py-3 d-flex gap-1 align-items-center"
           >
-            Get a Demo{" "}
+            Get a Demo
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
