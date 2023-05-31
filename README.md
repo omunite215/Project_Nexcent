@@ -6,8 +6,9 @@
 This is a Responsive Webpage of Lessons and Insights using Next.Js and Bootstrap
 
 A website which made using Next.js, Bootstrap resulting in a stunning website.
+This project is made completely from Typescript.
 
-This Project is hosted in Vercel : [Nexcent]([https://portfoliobyom.netlify.app/](https://nexcent-kappa.vercel.app/))
+This Project is hosted on Netlify : [Nexcent](https://nexcentbyom.netlify.app/)
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -20,7 +21,7 @@ npm (Node Package Manager)
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS, Next.JS, Bootstrap.
+Javascript, TypeScript, HTML, CSS, Next.JS, Bootstrap.
 
 
 ## How to use this Repository?
