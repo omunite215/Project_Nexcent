@@ -2,6 +2,11 @@
 
 ![Screenshot 2023-05-29 125423](https://github.com/omunite215/Nexcent/assets/78680563/8a672a28-add5-4c56-8b12-57dfa10505d4)
 
+This is implementation of a design from a figma Template
+[Figma Template Nexcent](https://www.figma.com/file/Yzq14EpRfKfaWyCqIdnPLc/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design-(Community)?type=design&node-id=0-1&t=CM2a2ZZQB9syyWZn-0)
+
+At the time I am making this project, I haven't found any designs for medium-sized (md) and small devices (sm).
+So, the responsive design of this template has been completely done by me.
 
 This is a Responsive Webpage of Lessons and Insights using Next.Js and Bootstrap
 
