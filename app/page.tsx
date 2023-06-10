@@ -1,3 +1,5 @@
+"use client";
+
 import { Footer, Navbar } from "@/components";
 import {
   Clients,
@@ -10,9 +12,15 @@ import {
   Stats,
   Use,
 } from "@/sections";
+import { useEffect } from "react";
 
 export default function Home() {
-  return (
+
+  useEffect(() => {
+    require('bootstrap/dist/js/bootstrap.bundle.min.js');
+    }, []);
+  
+    return (
     <main>
       <nav>
         <Navbar />

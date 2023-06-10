@@ -18,8 +18,8 @@ const Hero = () => {
         <Link href="/" className="mt-4"><button type="button" className="btn btn-primary btn-lg text-light fw-normal fs-6 px-5 py-3 ">Register</button></Link>
       </section>
       <section className="">
-        <Image src="/HeroImg.svg" alt="Hero" height={407} width={391} className="d-sm-block d-none" />
-        <Image src="/HeroImg.svg" alt="Hero" height={307} width={291} className="d-sm-none d-block" />
+        <Image src="/HeroImg.svg" alt="Hero" height={407} width={391} className="d-sm-block d-none" priority={true}/>
+        <Image src="/HeroImg.svg" alt="Hero" height={307} width={291} className="d-sm-none d-block" priority={true} />
       </section>
       </section>
     </main>
