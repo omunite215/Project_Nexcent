@@ -62,7 +62,7 @@ The website should now be up and running on http://localhost:3000.
 
 ## 🛠 Skills
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,figma)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,scss,js,ts,react,nextjs,figma)](https://skillicons.dev)
 
 ## 🚀 About Me
 Specializations:
