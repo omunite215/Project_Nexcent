@@ -1,44 +1,64 @@
 "use client";
-
-import { Footer, Navbar } from "@/components";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import NavbarComponent from "./components/NavbarComponent";
 import {
-  Clients,
-  Customers,
-  Demo,
-  Feature,
   Hero,
-  Legacy,
-  Readmore,
-  Stats,
-  Use,
-} from "@/sections";
-import { useEffect } from "react";
+  Clients,
+  Manage,
+  Pixelgrade,
+  BusinessStats,
+  Design,
+  MeetAllCustomers,
+  Marketing,
+  Demo,
+} from "./sections";
+import FooterComponent from "./components/FooterComponent";
+import Spinner from "react-bootstrap/Spinner";
+import { useEffect, Suspense } from "react";
 
 export default function Home() {
 
   useEffect(() => {
-    require('bootstrap/dist/js/bootstrap.bundle.min.js');
-    }, []);
-  
-    return (
-    <main>
-      <nav>
-        <Navbar />
-      </nav>
-      <section className="container mt-5 d-flex flex-column column-gap-5">
-        <Hero />
-        <Clients />
-        <Feature />
-        <Legacy />
-        <Stats />
-        <Use />
-        <Customers />
-        <Readmore />
-      </section>
-      <footer className="d-flex flex-column justify-content-center align-items-center w-100">
-        <Demo />
-        <Footer />
-      </footer>
+    AOS.init({
+      duration: 1000,
+      offset: 100,
+    });
+  }, []);
+
+  return (
+    <main className="overflow-x-hidden">
+      <Suspense fallback={<Spinner animation="border" variant="primary" />}>
+        <header className="bg-silver">
+          <NavbarComponent />
+          <section className="bg-silver">
+            <Hero />
+          </section>
+        </header>
+        <section className="bg-white">
+          <Clients />
+          <Manage />
+          <Pixelgrade />
+        </section>
+        <section className="bg-silver">
+          <BusinessStats />
+        </section>
+        <section className="bg-white">
+          <Design />
+        </section>
+        <section className="bg-silver">
+          <MeetAllCustomers />
+        </section>
+        <section className="bg-white pb-5">
+          <Marketing />
+        </section>
+        <section className="bg-silver mt-5">
+          <Demo />
+        </section>
+        <footer className="bg-secondary">
+          <FooterComponent />
+        </footer>
+      </Suspense>
     </main>
   );
 }

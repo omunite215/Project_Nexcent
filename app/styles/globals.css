@@ -1,0 +1,50 @@
+.bg-silver {
+    background-color: #F5F7FA;
+}
+.text-silver{
+    color: #F5F7FA
+}
+.navtext {
+    color: #18191F;
+}
+.font-inter{
+    font-family: 'Inter', sans-serif;
+}
+.px-6{
+    padding-right: 32px;
+    padding-left: 32px;
+}
+@media screen and (min-width: 768px) {
+    .sub-section{
+        width: 50%;
+    }
+    br {
+        display: block;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+        grid-template-rows: repeat(2, 1fr); /* Creates two equal-height rows */
+        gap: 30px; /* Sets the gap between grid items */
+    }
+    .card{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sub-section{
+        width: 100%;
+    }
+    br {
+        display: none;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Creates two equal-width columns */
+        grid-template-rows: repeat(4, 1fr); /* Creates two equal-height rows */
+        gap: 30px; /* Sets the gap between grid items */
+    }
+    .card{
+        margin-top: 100px;
+    }
+}
