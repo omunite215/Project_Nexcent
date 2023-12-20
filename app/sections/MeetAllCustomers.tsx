@@ -26,7 +26,7 @@ const MeetAllCustomers = () => {
           neque, eget efficitur libero condimentum id. Curabitur id nibh id sem
           dignissim finibus ac sit amet magna.
         </p>
-        <h3 className="fw-semibold text-primary mt-3">Tim Smith</h3>
+        <h1 className="fw-semibold fs-5 text-primary mt-3">Tim Smith</h1>
         <p className="fw-normal text-gray-100 mt-2">
           British Dragon Boat Racing Association
         </p>

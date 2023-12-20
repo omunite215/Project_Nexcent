@@ -14,21 +14,19 @@ import {
   Demo,
 } from "./sections";
 import FooterComponent from "./components/FooterComponent";
-import Spinner from "react-bootstrap/Spinner";
-import { useEffect, Suspense } from "react";
+import { useEffect } from "react";
 
 export default function Home() {
 
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      offset: 100,
+      offset: 120,
     });
   }, []);
 
   return (
     <main className="overflow-x-hidden">
-      <Suspense fallback={<Spinner animation="border" variant="primary" />}>
         <header className="bg-silver">
           <NavbarComponent />
           <section className="bg-silver">
@@ -58,7 +56,6 @@ export default function Home() {
         <footer className="bg-secondary">
           <FooterComponent />
         </footer>
-      </Suspense>
     </main>
   );
 }

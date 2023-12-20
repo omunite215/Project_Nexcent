@@ -15,7 +15,7 @@
 At the time I am making this project, I haven't found any designs for medium-sized (md) and small devices (sm).
 So, the responsive design of this template has been completely done by me.
 
-This Project is hosted on Netlify : [Nexcent](https://nexcentbyom.netlify.app/)
+This Project is hosted on vercel : [Nexcent](https://project-nexcent.vercel.app/)
 
 ## :star: Give A Star
 
@@ -30,7 +30,6 @@ Before you start, make sure you have the following software installed on your co
 
 [![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)
 
-
 ## ℹ️ How to use this Repository?
 
 1. Clone the repository to your local machine
@@ -39,17 +38,21 @@ Before you start, make sure you have the following software installed on your co
   git clone https://github.com/omunite215/Project_Nexcent.git
 
 ```
+
 2. Navigate to the project directory
 
 ```bash
   cd Project_Nexcent
 ```
+
 3. Install the necessary dependencies
+
 ```bash
   npm install
 ```
 
 4. Start the development server
+
 ```bash
   npm start
 ```
@@ -58,14 +61,16 @@ The website should now be up and running on http://localhost:3000.
 
 ## 🏠 Built With:
 
-[![My Skills](https://skillicons.dev/icons?i=figma,vscode,react,nextjs,bootstrap,netlify)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=figma,vscode,react,nextjs,bootstrap,scss,vercel)](https://skillicons.dev)
 
 ## 🛠 Skills
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,scss,js,ts,react,nextjs,figma)](https://skillicons.dev)
 
 ## 🚀 About Me
+
 Specializations:
+
 - UI/UX Design.
 - Web Development
 
@@ -95,6 +100,7 @@ Specializations:
 </p>
 
 ## 🗒️ Authors
+
 - Om Patel
 
 <p align="left">
