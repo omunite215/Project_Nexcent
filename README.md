@@ -54,7 +54,7 @@ Before you start, make sure you have the following software installed on your co
 4. Start the development server
 
 ```bash
-  npm start
+  npm run dev
 ```
 
 The website should now be up and running on http://localhost:3000.
