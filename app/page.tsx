@@ -26,7 +26,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-x-clip">
         <header className="bg-silver">
           <NavbarComponent />
           <section className="bg-silver">
