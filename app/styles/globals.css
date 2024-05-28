@@ -1,3 +1,6 @@
+main{
+    overflow-x: clip;
+}
 .bg-silver {
     background-color: #F5F7FA;
 }
